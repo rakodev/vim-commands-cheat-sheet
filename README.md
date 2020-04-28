@@ -19,7 +19,11 @@ I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html
   > `G` bottom of the file  
   > `gg` top of the file  
   > line number + `G` go to the line
-  > `j$` end of next line
+  > `j$` end of next line  
+  > `CTRL-f` page down  
+  > `CTRL-b` page up  
+  > `CTRL-d` half page down  
+  > `CTRL-u` half page up
 - **Edit, Insert or Append**
   > `i` before the cursor  
   > `a` after the cursor  
@@ -51,7 +55,8 @@ I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html
   > `:set ic` to ignore case, `set noic` to disable ignore case  
   > `:set hls` to highlight matching text, `:set nohls` do disable highlight  
   > `n` to search second occurence of previous search  
-  > `N` to search previous occurence of previous search  
+  > `N` to search previous occurence of previous search
+  > `CTRL-o` jump to the last position  
   > `?` to search in backward direction  
   > `CTRL-O` go back to your previous position  
   > `CTRL-I` goes forward  
