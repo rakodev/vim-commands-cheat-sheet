@@ -4,6 +4,13 @@ This list of Vim command is only the most useful command I use.
 If you want to see all commands available for Vim you should check [vim documentation](https://vimhelp.org/).  
 I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html#vimtutor) to learn the basics of Vim.
 
+- **Create new file**
+  > `vim FILENAME` to edit or create a file  
+  > `:w` to set a name for your current document, useful if you open and edit a document just by typing `vim <ENTER>` > `:edit FILENAME` to open a new file
+- **Exit vim**
+  > `:q!` to quit without saving the file.  
+  > `:wq` to save and quit  
+  > `:w` to save current file
 - **Move**
   > `h` (left), `j` (down), `k` (up), `l` (right)  
   > `0` to start of the line  
@@ -13,13 +20,6 @@ I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html
   > `gg` top of the file  
   > line number + `G` go to the line
   > `j$` end of next line
-- **Create new file**
-  > `vim FILENAME` to edit or create a file  
-  > `:w` to set a name for your current document, useful if you open and edit a document just by typing `vim <ENTER>` > `:edit FILENAME` to open a new file
-- **Exit vim**
-  > `:q!` to quit without saving the file.  
-  > `:wq` to save and quit  
-  > `:w` to save current file
 - **Edit, Insert or Append**
   > `i` before the cursor  
   > `a` after the cursor  
@@ -48,7 +48,7 @@ I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html
   > `:r FILENAME` to paste the content of a file in your current cursor location, you can also paste the content of a command like `:r !ls`
 - **Search**
   > `/` and text you want to look for  
-  > `:set ic` to ignore case, `set noic` to disable ignore case
+  > `:set ic` to ignore case, `set noic` to disable ignore case  
   > `:set hls` to highlight matching text, `:set nohls` do disable highlight  
   > `n` to search second occurence of previous search  
   > `N` to search previous occurence of previous search  
