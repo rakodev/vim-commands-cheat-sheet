@@ -33,7 +33,7 @@ I highly recommend you to use the [vimtutor](https://vimhelp.org/usr_01.txt.html
   > `R` replace mode from cursor location  
   > `r` to replace current character  
   > `ce` to delete until end of word  
-  > `c$` to delete until end of word
+  > `c$` to delete until end of line
 - **Delete**
   > `x` a charactere  
   > `dw` a word  
